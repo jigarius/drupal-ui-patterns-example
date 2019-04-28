@@ -1,7 +1,7 @@
-# Drupal UI Pattern Example
+# Drupal UI Patterns Example
 
-This code was written to support the article [Drupal UI Patterns:
-Component Driven Development in Drupal](http://jigarius.com/node/8) on
+This code was written to support the article Drupal UI Patterns:
+Component Driven Development in Drupal on
 [jigarius.com](http://jigarius.com/).
 
 ## See the code in action
