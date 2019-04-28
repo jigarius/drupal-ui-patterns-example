@@ -1,0 +1,13 @@
+core: 8.x
+type: theme
+base theme: classy
+
+name: 'Oldie'
+description: 'An extract from the Oldie theme, used for jigarius.com. The theme demonstrates the usage of UI Patterns.'
+package: 'Custom'
+
+libraries:
+  - oldie/global-styling
+
+ckeditor_stylesheets:
+  - patterns/blockquote/css/blockquote.css
