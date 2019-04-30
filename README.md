@@ -1,7 +1,7 @@
 # Drupal UI Patterns Example
 
 This code was written to support the article [Drupal UI Patterns:
-Component Driven Development in Drupal](https://jigarius.com/blog/drupal-ui-patterns-component-driven-development-drupal) on
+Component Driven Development in Drupal](https://jigarius.com/blog/drupal-ui-patterns) on
 [jigarius.com](http://jigarius.com/).
 
 ## See the code in action
