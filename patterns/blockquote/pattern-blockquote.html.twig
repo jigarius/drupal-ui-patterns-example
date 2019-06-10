@@ -8,7 +8,7 @@
 ] %}
 
 {# Prepare URI #}
-{% if cite %}{% set attrs = attrs.setAttribute('cite', cite|render|trim) %}{% endif %}
+{% if cite %}{% set attributes = attributes.setAttribute('cite', cite|render|trim) %}{% endif %}
 
 {# Render output #}
 <blockquote{{ attributes.addClass(classes) }}>
