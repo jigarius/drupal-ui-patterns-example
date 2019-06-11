@@ -1,5 +1,9 @@
 # Drupal UI Patterns Example
 
+Have you ever written the same code twice while theming a Drupal website? Learn how to build a
+site with easily reusable components using the UI Patterns module. Such component-based software
+development results in faster development cycles because you build each component only once.
+
 This code was written to support the article [Drupal UI Patterns:
 Component Driven Development in Drupal](https://jigarius.com/blog/drupal-ui-patterns) on
 [jigarius.com](http://jigarius.com/).
@@ -18,3 +22,33 @@ To see the code in action, do the following:
 * Login to your website as an administrator and visit the `/patterns` page.
 
 You should now see a pattern named *Blockquote* on the page with 2 variants.
+
+## UI Patterns + Twig Tweak
+
+Thanks to the [Twig Tweak](https://www.drupal.org/project/twig_tweak) module, it is possible
+to use UI Patterns from within Twig files. For example, we can render a blockquote from a
+Twig file as follows:
+
+```twig
+{{ pattern('blockquote', {
+  'content': 'The gravest battle a man can fight is the one against himself.',
+  'author': 'Jerry Radwick'
+}, 'highlighted') }}
+```
+
+## UI Patterns + Renderable Arrays
+
+It is also possible to render UI Patterns with Drupal's Render API. All you need to do is
+prepare a renderable array as follows:
+
+```php
+$elements['blockquote'] = [
+  '#type' => 'pattern',
+  '#id' => 'blockquote',
+  '#variant' => 'highlighted',
+  '#fields' => [
+    'content' => 'The gravest battle a man can fight is the one against himself.',
+    'author' => 'Jerry Radwick'
+  ]
+];
+```
