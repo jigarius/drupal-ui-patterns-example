@@ -52,6 +52,6 @@ $elements['blockquote'] = [
 ## Next steps
 
 * Read the article [Drupal UI Patterns:
-Component Driven Development in Drupal](https://jigarius.com/blog/drupal-ui-patterns)
+Component Driven Development in Drupal](https://jigarius.com/blog/drupal-ui-patterns).
 * Read the [official documentation for the UI Patterns module](https://www.drupal.org/project/ui_patterns).
 * Read about the [Twig Tweak module](https://www.drupal.org/project/twig_tweak) and the features it provides.
