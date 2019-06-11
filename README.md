@@ -4,10 +4,6 @@ Have you ever written the same code twice while theming a Drupal website? Learn 
 site with easily reusable components using the UI Patterns module. Such component-based software
 development results in faster development cycles because you build each component only once.
 
-This code was written to support the article [Drupal UI Patterns:
-Component Driven Development in Drupal](https://jigarius.com/blog/drupal-ui-patterns) on
-[jigarius.com](http://jigarius.com/).
-
 ## See the code in action
 
 To see the code in action, do the following:
@@ -52,3 +48,10 @@ $elements['blockquote'] = [
   ]
 ];
 ```
+
+## Next steps
+
+* Read the article [Drupal UI Patterns:
+Component Driven Development in Drupal](https://jigarius.com/blog/drupal-ui-patterns)
+* Read the [official documentation for the UI Patterns module](https://www.drupal.org/project/ui_patterns).
+* Read about the [Twig Tweak module](https://www.drupal.org/project/twig_tweak) and the features it provides.
