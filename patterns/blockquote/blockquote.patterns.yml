@@ -27,17 +27,17 @@ blockquote:
       type: text
       label: Content
       description: The body of the quote.
-      preview: 'To be or to not to be... That is the question.'
+      preview: 'The gravest battle a man can fight is the one against himself.'
     attribution:
       type: text
       label: Attribution
       description: Reference to the original author (optional).
-      preview: 'William Shakespeare'
+      preview: 'Jigarius Caesar'
     cite:
       type: uri
       label: Citation
       description: URL where the original text can be found (optional).
-      preview: 'https://example.com/'
+      preview: 'https://jigarius.com/'
   # Optional: Attached libraries.
   #
   # You can include libraries defined by other modules / themes with dependencies.

@@ -31,7 +31,7 @@ Twig file as follows:
 ```twig
 {{ pattern('blockquote', {
   'content': 'The gravest battle a man can fight is the one against himself.',
-  'author': 'Jerry Radwick'
+  'author': 'Jigarius Caesar'
 }, 'highlighted') }}
 ```
 
@@ -47,7 +47,7 @@ $elements['blockquote'] = [
   '#variant' => 'highlighted',
   '#fields' => [
     'content' => 'The gravest battle a man can fight is the one against himself.',
-    'author' => 'Jerry Radwick'
+    'author' => 'Jigarius Caesar'
   ]
 ];
 ```
